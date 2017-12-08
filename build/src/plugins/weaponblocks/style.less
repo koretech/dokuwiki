@@ -1,0 +1,87 @@
+/**
+ * style.css for Plugin statblocks
+ * 
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Mike Kornelson
+ *
+ */
+
+.weaponblock {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	position: relative;
+	height: 137px;
+}
+
+.weaponblock .top {
+  margin: 0;
+  width: 450px;
+  background-color: #464646;
+  color: #afafaf;
+  border-radius: 5px;
+  padding: 0.2em 0.8em;
+}
+
+.weaponblock .top p {
+  margin: 0;
+}
+
+.weaponblock .stats { 
+  position: absolute;
+  background-image: url('images/weaponblock2.png');
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 80px;
+  background-size: 450px 80px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.weaponblock .stats > div { 
+  position: absolute;  
+  top: 25px;
+  width: 36px;
+  text-align: center;
+}
+
+.weaponblock .make { 
+  font-family: 'Squada One', cursive;
+  font-size: 1.5em;
+  color: white;
+}
+.weaponblock .type {
+  font-weight: bold;
+  padding-left: 1em;
+}
+.weaponblock .skill {
+  font-size: 0.8em;  
+  padding-right: 0.5em;
+}
+.weaponblock .range {
+  font-size: 0.8em;
+  padding-left: 0.5em;
+}
+
+.weaponblock .damage { left: 32px; }
+.weaponblock .crit { left: 109px; }
+.weaponblock .encumbrance { left: 185px; }
+.weaponblock .hp { left: 264px; }
+.weaponblock .condition.good { display: none; }
+.weaponblock .condition.minor { top: 10px; left: 332px; }
+.weaponblock .condition.moderate { top: 33px; left: 332px; }
+.weaponblock .condition.major { top: 55px; left: 332px; }
+
+.weaponblock .special { 
+  position: absolute;
+  top: 3px;
+  left: 252px;
+  width: 216px;
+  
+  span {
+    color: white;
+    padding: 0.2em 0.3em;
+    background-color: black;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-bottom: 0.3em;
+    margin-right: 0.3em;
+  }
+}

@@ -1,0 +1,7 @@
+base eote
+author Mike Kornelson
+email mike@durbn.net
+date 2015-05-21
+name Eote Plugin
+desc Eote icons
+url http://durbn.net

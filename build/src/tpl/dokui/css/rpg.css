@@ -1,0 +1,137 @@
+.rpgIcon {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+.wrap_rpg.wrap_mike {
+  color: #b45f06;
+}
+.wrap_rpg.wrap_mike.wrap_oc {
+  color: #f9ab5a;
+}
+.wrap_rpg.wrap_mike:before {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-image: url("/_media/courierservice/mike.jpg");
+}
+.wrap_rpg.wrap_alan {
+  color: black;
+}
+.wrap_rpg.wrap_alan.wrap_oc {
+  color: #4d4d4d;
+}
+.wrap_rpg.wrap_alan:before {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-image: url("/_media/courierservice/alan.png");
+}
+.wrap_rpg.wrap_richard {
+  color: #1155cc;
+}
+.wrap_rpg.wrap_richard.wrap_oc {
+  color: #81abf5;
+}
+.wrap_rpg.wrap_richard:before {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-image: url("/_media/courierservice/richard.png");
+}
+.wrap_rpg.wrap_kyle {
+  color: #38761d;
+}
+.wrap_rpg.wrap_kyle.wrap_oc {
+  color: #7dd656;
+}
+.wrap_rpg.wrap_kyle:before {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-image: url("/_media/courierservice/barrett_mug.png");
+}
+.wrap_rpg.wrap_sean {
+  color: #cc0000;
+}
+.wrap_rpg.wrap_sean.wrap_oc {
+  color: #ff6666;
+}
+.wrap_rpg.wrap_sean:before {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-image: url("/_media/courierservice/le_la.png");
+}
+.wrap_rpg.wrap_shane {
+  color: #450a63;
+}
+.wrap_rpg.wrap_shane.wrap_oc {
+  color: #a41ee8;
+}
+.wrap_rpg.wrap_shane:before {
+  content: "";
+  display: block;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-size: 35px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin: 0 6px 0 0;
+  background-image: url("/_media/courierservice/shane.png");
+}
+.wrap_rpg.wrap_gm {
+  color: #f3f3f3;
+}
+.wrap_rpg.wrap_gm p {
+  background-color: rgba(0, 0, 0, 0.54);
+}
+.wrap_rpg.wrap_oc {
+  background-color: #e8e8e8;
+  font-style: italic;
+  margin-left: 48px;
+}
+.wrap_rpg.wrap_oc:before {
+  background: none;
+  width: 0;
+  height: 0;
+  float: none;
+  margin: 0 0;
+}

@@ -1,0 +1,5 @@
+base  anchor
+author Eli Fenton
+date  2013-08-16
+name  Anchor Plugin
+url http://dokuwiki.org/plugin:anchor

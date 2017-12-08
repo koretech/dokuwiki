@@ -1,0 +1,15 @@
+{
+  "name": "dokuwiki",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build -t dokuwiki build/",
+    "start": "docker-compose -p dokuwiki -f docker-compose.yml up",
+    "daemon": "docker-compose -p dokuwiki -f docker-compose.yml up -d",
+    "stop": "docker-compose -p dokuwiki -f docker-compose.yml stop",
+    "down": "docker-compose -p dokuwiki -f docker-compose.yml down",
+    "logs": "docker logs -f dokuwiki_app_1",
+    "bash": "docker exec -it dokuwiki_app_1 /bin/sh",
+    "rmi:untagged": "docker images -q --filter \"dangling=true\" | xargs docker rmi"
+  }
+}

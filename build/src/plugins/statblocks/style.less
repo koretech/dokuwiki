@@ -1,0 +1,150 @@
+/**
+ * style.css for Plugin statblocks
+ * 
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Mike Kornelson
+ *
+ */
+
+.statblock {
+  	background-image: url('images/statblock2.png');
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 115px;
+	background-size: 450px 69px;
+
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+
+	position: relative;
+}
+
+.statblock .baseStat { position: absolute; top: 16px;}
+
+.statblock .brawn { left: 34px; }
+.statblock .agility { left: 107px; }
+.statblock .intellect { left: 180px; }
+.statblock .cunning { left: 254px; }
+.statblock .willpower { left: 327px; }
+.statblock .presence { left: 401px; }
+
+
+.statblock .otherStat { 
+  font-size: 0.8em; 
+  background-size: 85px 43px;
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 43px;
+  position: relative;
+  display: inline-block;
+  margin-top: 74px;
+  padding-right: 4px;
+  
+  &.small {
+    background-size: 43px 43px;
+    width: 43px;
+  }
+}
+
+.statblock .otherStat {
+  &.soak {
+    background-image: url('images/soak.png');
+  }
+  &.defense {
+    background-image: url('images/defense.png'); 
+  }
+  &.encumbrance {
+    background-image: url('images/encumbrance.png'); 
+  }
+  &.force { 
+    background-image: url('images/force.png'); 
+  }
+  &.strain {
+    background-image: url('images/strain.png'); 
+  }
+  &.wounds {
+    background-image: url('images/wounds.png'); 
+  }
+}  
+
+.statblock .otherStat div:first-child {
+  position: absolute;
+  top: 17px;
+  left: 12px;
+}
+.statblock .otherStat div:last-child {
+  position: absolute;
+  top: 17px;
+  left: 54px;
+}
+
+.statblock .otherStat.small div:last-child {
+  left: 15px;
+}
+
+/*
+.statblock{
+	background-image: url('images/statblock.png');
+	width: 450px;
+	height: 115px;
+	background-size: 450px;
+
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+
+	position: relative;
+}
+
+.statblock > div { position: absolute; top: 16px;}
+
+.statblock .brawn { left: 34px; }
+.statblock .agility { left: 107px; }
+.statblock .intellect { left: 180px; }
+.statblock .cunning { left: 254px; }
+.statblock .willpower { left: 327px; }
+.statblock .presence { left: 401px; }
+
+.statblock .small { top: 88px; font-size: 0.8em; }
+
+.statblock .soak { left: 39px; }
+.statblock .wounds { left: 107px; }
+.statblock .woundscurrent { left: 144px; }
+.statblock .strain { left: 195px; }
+.statblock .straincurrent { left: 232px; }
+.statblock .force { left: 310px; }
+.statblock .encumbrance { left: 374px; }
+.statblock .encumbrancecurrent { left: 414px; }
+
+
+@media (max-width: 375px) {
+
+.statblock {
+        width: 325px;
+        height: 83px;
+        background-size: 325px;
+	font-size: 1.5em;
+}
+.statblock > div { position: absolute; top: 10px;}
+
+.statblock .brawn { left: 24px; }
+.statblock .agility { left: 77px; }
+.statblock .intellect { left: 130px; }
+.statblock .cunning { left: 183px; }
+.statblock .willpower { left: 236px; }
+.statblock .presence { left: 289px; }
+
+.statblock .small { top: 62px; font-size: 0.6em; }
+
+.statblock .soak { left: 28px; }
+.statblock .wounds { left: 79px; }
+.statblock .woundscurrent { left: 105px; }
+.statblock .strain { left: 143px; }
+.statblock .straincurrent { left: 170px; }
+.statblock .force { left: 225px; }
+.statblock .encumbrance { left: 273px; }
+.statblock .encumbrancecurrent { left: 300px; }
+
+}
+*/

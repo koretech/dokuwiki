@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+@font-face {
+    font-family: 'aurebeshregular';
+    src: url('/lib/tpl/dokui/fonts/aurebesh-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/aurebesh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/aurebesh-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/aurebesh-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/aurebesh-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/aurebesh-webfont.svg#aurebeshregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aurebesh_condensedregular';
+    src: url('/lib/tpl/dokui/fonts/aurebesh_condensed-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/aurebesh_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/aurebesh_condensed-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/aurebesh_condensed-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/aurebesh_condensed-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/aurebesh_condensed-webfont.svg#aurebesh_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('/lib/tpl/dokui/fonts/starjedi-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/starjedi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/starjedi-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/starjedi-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/starjedi-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/starjedi-webfont.svg#star_jediregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'star_jedi_hollowregular';
+    src: url('/lib/tpl/dokui/fonts/starjhol-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/starjhol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/starjhol-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/starjhol-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/starjhol-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/starjhol-webfont.svg#star_jedi_hollowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrap_aurebesh {
+  font-family: 'aurebeshregular', sans-serif;
+}
+.wrap_aurebesh_condensed {
+  font-family: 'aurebesh_condensedregular', sans-serif;
+}
+.wrap_starjedi {
+  font-family: 'star_jediregular', sans-serif;
+}
+.wrap_starjedi_hollow {
+  font-family: 'star_jedi_hollowregular', sans-serif;
+}

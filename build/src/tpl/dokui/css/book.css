@@ -1,0 +1,77 @@
+/* @import url(https://fonts.googleapis.com/css?family=Karma); */
+/* @import url(https://fonts.googleapis.com/css?family=Martel); */
+
+@font-face {
+    font-family: 'gentium_book_basicregular';
+    src: url('/lib/tpl/dokui/fonts/genbkbasr-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/genbkbasr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/genbkbasr-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/genbkbasr-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/genbkbasr-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/genbkbasr-webfont.svg#gentium_book_basicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('/lib/tpl/dokui/fonts/sourcesanspro_bold-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/sourcesanspro_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/sourcesanspro_bold-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/sourcesanspro_bold-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/sourcesanspro_bold-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/sourcesanspro_bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.wrap_book {
+
+	width: 447px;
+
+	/*
+	font-family: 'Martel', serif;
+	font-size: 1.2em;
+	*/
+	
+	font-family: 'gentium_book_basicregular', serif;
+	font-size: 12pt;
+	line-height: 1.5em;
+	text-align: justify;
+	text-indent: 1em;
+
+}
+
+.wrap_book h1 {
+  font-family: 'source_sans_probold', sans-serif;
+  margin-bottom: 2em;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.wrap_book p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.wrap_book p:first-child {
+	margin-top: 2em;
+}
+.wrap_book p:last-child {
+	margin-bottom: 2em;
+}
+
+.wrap_book hr {
+	border-top: none;
+	margin-top: 13px;
+	margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap_book {
+    width: 100%;
+  }
+}

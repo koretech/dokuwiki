@@ -1,0 +1,56 @@
+/**
+ * style.css for Plugin statblocks
+ * 
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * @author     Mike Kornelson
+ *
+ */
+
+.skillsContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.skillsContainer .toggle {
+  position: absolute;
+  right: -24px;
+  top: 1px;
+  background-color: darkgray;
+  border-radius: 6px;
+  padding: 2px 2px;
+  color: white;
+  cursor: pointer;
+}
+
+table.skills {
+  margin: 0 0;
+}
+
+table.skills .skill {
+	font-weight: bold;
+}
+
+table.skills tbody tr.hidden {
+  display: none;
+}
+
+/*  
+table.skills th {
+  padding: 5px 6px;
+}
+
+table.skills td:first-child {
+  padding-left: 7px;    
+}
+
+table.skills td:nth-child(5) {
+  text-align: left;
+}
+
+table.skills td {
+  padding: 1px 1px;
+}
+*/
+
+/*@media (max-width: 375px) {*/
+/*}*/

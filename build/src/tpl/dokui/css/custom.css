@@ -1,0 +1,96 @@
+.dokuwiki .uk-navbar-brand {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.dokuwiki .uk-navbar-brand a {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.dokuwiki .uk-navbar-brand.uk-visible-small {
+  padding-right: 0;
+  max-width: 100%;
+}
+
+.dokuwiki .tm-footer .uk-panel a.dw-brand {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.tm-footer {
+  padding: 30px 0;
+}
+
+
+.hiddenHead p {
+	color: #1d8acb;
+	cursor: pointer;
+}
+
+.hiddenHead p:hover {
+	text-decoration: underline;
+}
+
+.secedit.editbutton_section {
+	float: right;
+	position: relative;
+	top: -2.5em;
+}
+
+.secedit.editbutton_section button {
+	visibility: hidden;
+	border: none;
+	background: none;
+	/*color: #e7e7e7;*/
+	color: rgb(107,107,107);
+}
+
+div:hover + .secedit.editbutton_section button {
+    visibility: visible;
+}
+
+.secedit.editbutton_section button:hover {
+	color: black;
+	text-decoration: underline;
+	visibility: visible !important;
+}
+
+/*
+.uk-article > li:last-child {
+	text-align:center;
+}
+
+.uk-article > li:last-child > a {
+	color: lightgrey;
+}
+*/
+
+.uk-article .actions {
+	margin-top: 3em;
+	text-align: center;
+}
+
+.uk-article .actions span {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.uk-article .actions span:first-child {
+	margin-left: 0;
+}
+.uk-article .actions span:last-child {
+	margin-right: 0;
+}
+
+.uk-article .actions span a {
+	color: rgb(231, 231, 231);
+}
+.uk-article .actions:hover span a {
+	color: rgb(102, 102, 102);
+}
+
+.uk-nav li.uk-active a {
+  background-color: #252525;
+  color: white;
+}
+

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'eote_symbolregular';
+    src: url('/lib/tpl/dokui/fonts/EotE_Symbol-Regular_v1-webfont.eot');
+    src: url('/lib/tpl/dokui/fonts/EotE_Symbol-Regular_v1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/lib/tpl/dokui/fonts/EotE_Symbol-Regular_v1-webfont.woff2') format('woff2'),
+         url('/lib/tpl/dokui/fonts/EotE_Symbol-Regular_v1-webfont.woff') format('woff'),
+         url('/lib/tpl/dokui/fonts/EotE_Symbol-Regular_v1-webfont.ttf') format('truetype'),
+         url('/lib/tpl/dokui/fonts/EotE_Symbol-Regular_v1-webfont.svg#eote_symbolregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+}
+
+.eote {
+	font-family: 'eote_symbolregular' !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1em;
+	display: inline-block;
+	opacity: 1;
+	margin: 0 0;
+	width: 1em;
+	height: 0.9em;
+	font-style: normal;
+	line-height: 1;
+	font-weight: normal;
+	text-decoration: inherit;
+	text-align: center;
+	speak: none;
+	font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+span.eote {
+	font-family: 'eote_symbolregular' !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1em;
+	display: inline-block;
+	opacity: 1;
+	margin: 0 0;
+	width: 1em;
+	height: 0.9em;
+	font-style: normal;
+	line-height: 1;
+	font-weight: normal;
+	text-decoration: inherit;
+	text-align: center;
+	speak: none;
+	font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+span.eote.boost:before {
+	content: "\0062";
+	color: #57adf2;
+}
+span.eote.setback:before {
+	content: "\0062";
+	color: black;
+}
+span.eote.proficiency:before {
+	content: "\0063";
+	color: #edc223;
+}
+span.eote.ability:before {
+	content: "\0064";
+	color: #348458;
+}
+span.eote.lightside:before {
+	content: "\005a";
+}
+span.eote.advantage:before {
+	content: "\0061";
+}
+span.eote.threat:before {
+	content: "\0074";
+}
+span.eote.challenge:before {
+	content: "\0063";
+	color: #ac191c;
+}
+span.eote.difficulty:before {
+	content: "\0064";
+	color: #504060;
+}
+span.eote.failure:before {
+	content: "\0066";
+}
+span.eote.success:before {
+	content: "\0073";
+}
+span.eote.triumph:before {
+	content: "\0078";
+}
+span.eote.despair:before {
+	content: "\0079";
+}
+span.eote.darkside:before {
+	content: "\007a";
+}
+span.eote.force:before {
+	content: "\0063";
+	color: grey;
+}
+
+.inverted {
+	span.eote.lightside:before {
+		content: "\007a";
+		color: #ffffff;
+	}
+	span.eote.difficulty:before {
+		color: #9078a1;
+	}
+	span.eote.darkside:before {
+		content: "\005a";
+	}
+}

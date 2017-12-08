@@ -1,0 +1,7 @@
+base statblocks
+author Mike Kornelson
+email mike@durbn.net
+date 2015-09-23
+name Statblock Plugin
+desc Statblocks for characters
+url http://durbn.net

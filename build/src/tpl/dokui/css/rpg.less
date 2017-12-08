@@ -1,0 +1,51 @@
+@iconSize: 35px;
+
+@mike: #b45f06;
+@alan: black;
+@richard: #1155cc;
+@kyle: #38761d;
+@sean: #cc0000;
+@gm: #f3f3f3;
+@shane: #450a63;
+
+.rpgIcon {
+    content: "";  
+    display: block;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: @iconSize;
+    width: @iconSize; 
+    height: @iconSize;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.wrap_rpg {
+
+  &.wrap_mike {color: @mike;
+	&.wrap_oc {color: lighten(@mike, 30%);}
+	&:before {.rpgIcon(); background-image: url("/_media/courierservice/mike.jpg")}}
+  &.wrap_alan {color: @alan;
+	&.wrap_oc {color: lighten(@alan, 30%);}
+	&:before {.rpgIcon(); background-image: url("/_media/courierservice/alan.png")}}
+  &.wrap_richard {color: @richard; 
+	&.wrap_oc {color: lighten(@richard, 30%);}
+	&:before {.rpgIcon(); background-image: url("/_media/courierservice/richard.png")}}
+  &.wrap_kyle {color: @kyle; 
+	&.wrap_oc {color: lighten(@kyle, 30%);}
+	&:before {.rpgIcon(); background-image: url("/_media/courierservice/barrett_mug.png")}}
+  &.wrap_sean {color: @sean; 
+	&.wrap_oc {color: lighten(@sean, 30%);}
+	&:before {.rpgIcon(); background-image: url("/_media/courierservice/le_la.png")}}
+  &.wrap_shane {color: @shane;
+        &.wrap_oc {color: lighten(@shane, 30%);}
+        &:before {.rpgIcon(); background-image: url("/_media/courierservice/shane.png")}}
+  &.wrap_gm {color: @gm; p{background-color: rgba(0,0,0,0.54);}}
+
+  &.wrap_oc {
+    background-color: #e8e8e8;
+    font-style: italic;
+    margin-left: 48px;
+    &:before {background: none; width: 0; height: 0; float: none; margin: 0 0;}
+  }
+}
