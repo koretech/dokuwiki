@@ -1,9 +1,11 @@
 {
   "name": "dokuwiki",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "docker build -t dokuwiki build/",
+    "build": "docker build -t koretech/dokuwiki:1.1.0 build/",
+    "setlatest": "docker tag koretech/dokuwiki:1.1.0 koretech/dokuwiki:latest",
+    "push": "docker push koretech/dokuwiki:1.1.0 && docker push koretech/dokuwiki:latest",
     "start": "docker-compose -p dokuwiki -f docker-compose.yml up",
     "daemon": "docker-compose -p dokuwiki -f docker-compose.yml up -d",
     "stop": "docker-compose -p dokuwiki -f docker-compose.yml stop",

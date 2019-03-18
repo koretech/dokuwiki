@@ -2,7 +2,7 @@ version: "2"
 
 services:
   app:
-    image: dokuwiki:latest
+    image: koretech/dokuwiki:latest
     ports:
       - "8040:80"
     volumes:

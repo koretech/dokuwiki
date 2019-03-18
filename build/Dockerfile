@@ -86,17 +86,19 @@ RUN curl -o "$ZIP/wrap.zip" -L "https://github.com/selfthinker/dokuwiki_plugin_w
 RUN rm -rf $ZIP && \
 		rm -rf $UNZIP
 
-ADD src/plugins/ $PLUGINS/
-ADD src/tpl/dokui $TPL/dokui/
+# ADD src/plugins/ $PLUGINS/
+# ADD src/tpl/dokui $TPL/dokui/
 
 RUN mkdir -p /original && \
 		mv $HTML/conf /original && \
-		mv $HTML/data /original
+		mv $HTML/data /original && \
+		mv $HTML/lib/plugins /original && \
+		mv $HTML/lib/tpl /original
 
 RUN chown -R nginx:nginx $HTML && \
-		chmod -R a+rw $PLUGINS && \
-		chmod -R 755 $HTML/lib && \
-		chmod -R a+rw $TPL
+    chmod -R 755 $HTML/lib
+#		chmod -R a+rw $PLUGINS && \		
+#		chmod -R a+rw $TPL
 
 WORKDIR /
 COPY entrypoint.sh /
